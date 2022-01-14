@@ -11,15 +11,15 @@ public class Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "c_id", nullable = false)
+    @Column(name = "customer_id", nullable = false)
     private int id;
 
-    @Column(name = "c_name", length = 50, nullable = false)
+    @Column(name = "customer_name", length = 50, nullable = false)
     private String name;
 
-    @Column(name = "c_residence", length = 50, nullable = false)
+    @Column(name = "customer_residence", length = 50, nullable = false)
     private String residence;
 
-    @Column(name = "c_sale", nullable = false)
+    @Column(name = "customer_sale", nullable = false)
     private int sale;
 }
