@@ -31,7 +31,7 @@ public class Purchase {
     @Column(name = "purchase_quantity", nullable = false)
     private int quantity;
 
-    @Column(name = "p_sum", nullable = false)
+    @Column(name = "purchase_sum", nullable = false)
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     private int sum;
 }
