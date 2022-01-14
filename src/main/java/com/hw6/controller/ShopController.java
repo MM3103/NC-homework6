@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/shops")
-@Tag(name = "Store Controller")
+@Tag(name = "Shop Controller")
 public class ShopController {
 
     @Autowired
